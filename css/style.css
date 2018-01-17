@@ -1,0 +1,304 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    border: 0px;
+}
+ul{
+    list-style: none;
+}
+.float{
+    float: left;
+}
+ul li a{
+    text-decoration: none;
+}
+.clr{
+    clear: both;
+}
+@font-face{
+    font-family:gotham_bold;
+    src: url(../fonts/gotham-fonts/Gotham-Bold.ttf);
+}
+@font-face{
+    font-family:gotham_medium;
+    src: url(../fonts/gotham-fonts/Gotham-Medium.ttf);
+}
+/*--------------------Main css start now--------------------*/
+.full_wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+}
+.header{}
+.logo_part{
+    width: 300px;
+}
+.logo_part img{
+    padding: 41px 0px;
+}
+.menu_part{
+    width: 660px;
+}
+.menu_part ul{
+    float: right;
+}
+.menu_part ul li{
+    float: left;
+}
+.menu_part ul li a{
+    padding-left: 94px;
+    line-height: 102px;
+    font-family: gotham_medium;
+    text-transform: uppercase;
+    color: #a7a7a7;
+}
+.menu_part ul li a:hover{
+    color: #000000;
+    transition: all linear .4s;
+}
+/*------------------------Header_part ends---------------------------*/
+.banner{
+    height: 500px;
+    background: url(../images/banner.jpg) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.banner .wrapper h1{
+    padding-top: 174px;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: gotham_bold;
+}
+.banner .wrapper p{
+    font-family: Georgia;
+    font-style: italic;
+    padding-top: 33px;
+}
+.banner .wrapper .icon{
+    padding-top: 67px;
+}
+.banner .wrapper .icon i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-weight: 500;
+    border: 15px solid #fff;
+    color: #525252;
+}
+.banner .wrapper .icon i:hover{
+    background:#525252;
+    color: #fff;
+    transition: all linear .4s;
+}
+/*------------------------Banner_part ends---------------------------*/
+.work{
+    height: 215px;
+    text-align: center;
+}
+.work h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: gotham_bold;
+    position: relative;
+}
+.work h1:after{
+    position: absolute;
+    content: '';
+    width: 240px;
+    height: 3px;
+    border-bottom: 3px solid #303030;
+    bottom: 0px;
+    left: 356px;
+}
+.work p{
+    font-size: 16px;
+    font-family: sans-serif;
+    padding-bottom: 51px;
+    padding-top: 31px;
+}
+/*------------------------Work_part ends---------------------------*/
+.picture{
+    background: red;
+}
+.picture .first{
+    width: 320px;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.picture .first img{
+    width: 100%;
+}
+
+/*------------------------Picture_part ends---------------------------*/
+.team_bg{
+    background: #f3f3f3;
+    padding-bottom: 80px;
+    height: 570px;
+}
+.team h1{
+    color: #303030;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 19px;
+    font-family: gotham_bold;
+    text-transform: uppercase;
+    position: relative;
+}
+.team h1:after{
+    position: absolute;
+    content: '';
+    width: 184px;
+    height: 3px;
+    border-bottom: 3px solid #303030;
+    bottom: 0px;
+    left: 390px;
+}
+.team p{
+    text-align: center;
+    font-size: 16px;
+    color: #303030;
+    font-family: sans-serif;
+    padding-top: 30px;
+    padding-bottom: 56px;
+}
+.team_person{
+    width: 210px;
+    background: #fff;
+    text-align: center;
+    float: left;
+    padding-right: 20px;
+    margin-left: 20px;
+    box-shadow: 0px 6px 5px 0px rgba(184,184,184,1);
+    box-sizing: border-box;
+}
+.team_person img{
+    margin-left: -19px;
+    border-radius: 50%;
+    padding: 20px 60px 13px 60px;
+}
+.team_person h3{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding-bottom: 14px;
+}
+.team_person h4{
+    font-family: Georgia;
+    font-style: italic;
+    padding-bottom: 20px;
+    transition: all linear .4s;
+}
+.team_person i{
+    color: #7f7f7f;
+    font-size: 20px;
+    padding-right: 20px;
+    margin-bottom: 22px;
+}
+.team_person i:hover{
+    color: #0018ff;
+    transition: all linear .4s;
+}
+/*------------------------Team_part ends---------------------------*/
+.contact{
+    height: 566px;
+}
+.contact p{
+    padding-top: 147px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #5a5a5a;
+}
+.contact .map{
+    float: left;
+    width: 306px;
+    height: 566px;
+}
+.contact .mail{
+    padding-left: 35px;
+    height: 560px;
+    float: left;
+    width: 600px;
+    border: 6px solid #fff;  
+}
+.contact .mail h1{
+    padding-top: 50px;
+    padding-bottom: 19px;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #303030;
+    font-family: gotham_bold;
+    position: relative;
+    padding-left: 10px;
+}
+.contact .mail h1:after{
+    position: absolute;
+    content: '';
+    bottom: 0px;
+    left: 0px;
+    width: 180px;
+    height: 3px;
+    border-bottom: 3px solid #303030;
+}
+.contact .mail p{
+    padding-top: 42px;
+    padding-bottom: 25px;
+}
+.contact .mail .area{
+    width: 530px;
+    height: 238px;
+    padding-left: 30px;
+    background: #f2f2f2;
+    font-style: italic;
+    font-family: sans-serif;
+    margin-bottom: 23px;
+    border: 1px solid #d9d9d9;
+}
+.contact .mail .area_email{
+    width: 327px;
+    height: 60px;
+    border: 1px solid #d9d9d9;
+    font-family: sans-serif;
+    padding-left: 30px;
+    font-style: italic;
+    background: #f2f2f2;
+}
+.send{
+    width: 200px;
+    height: 64px;
+    background: #6995a9;
+    cursor: pointer;
+    font-family: gotham_bold;
+    color: #fff;
+    transition: all linear .4s;
+}
+.send:hover{
+    background: #cbcaca; 
+    color: #000000;
+}
+/*------------------------Contact_part ends---------------------------*/
+.foot_bg{
+    background: #4f4f4f;
+}
+.footer{
+    text-align: center;
+    height: 80px;
+    background: #4f4f4f;
+}
+.footer .address{
+    color: #949494;
+    line-height: 60px;
+    font-family: Myriad Pro;
+}
+.footer .details{
+    color: #6e6e6e;
+    font-family: Myriad Pro;
+}
+/*------------------------Footer_part ends---------------------------*/
